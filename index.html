@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple View</title>
+    <script src="viewList.js"></script>
+    <style>
+        div#container > div {
+            display:none;
+        }
+    </style>
+</head>
+<body>
+<button data-view="welcomeScreenContainer">Welcome</button>
+<button data-view="otherContainer">Other</button>
+
+<div id="container">
+    <div id="welcomeScreenContainer">
+        <div class="center">
+            <h4>ViewList</h4>
+            <p>Welcome to a ViewList. <br>A week Project</p>
+        </div>
+    </div>
+
+    <div id="otherContainer">
+        <div class="center">
+            <h4>Other</h4>
+            <p>This is Other view <br>Something...</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
